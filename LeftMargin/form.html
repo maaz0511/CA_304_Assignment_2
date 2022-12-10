@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+        body {
+            font-family: Calibri, Helvetica, sans-serif;
+            background-color:#6a5acd;
+        }   
+        .details{
+            text-align: center;
+        }
+        .container {
+            padding: 50px;
+            background-color: lightblue;
+        }
+
+        input[type=text],
+        input[type=password],
+        textarea {
+            width: 96%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: orange;
+            outline: none;
+        }
+        *{
+            font-family: 'Lora', serif;
+        }
+        div {
+            padding: 10px 0;
+        }
+
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+
+        .registerbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .registerbtn:hover {
+            opacity: 1;
+        }
+ 
+        .botton {
+
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #112D4E;
+  padding: 6px 19px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid;
+  color: white;
+
+}
+
+    </style>
+</head>
+
+<body>
+   <h1 class="details">Enter Your Details</h1>
+  <div class="txt">
+    <form id="form" onsubmit="validate()">
+      <label class="lab"><b>Name</b></label>
+      <input type="text" id="eman" class="input" placeholder="Enter Name" >
+      <br>
+      <label class="lab"> <b>Age</b></label>
+      <input type="number" id="age" value="" class="input" placeholder="Enter Age">
+      <br>
+      <br>
+      <label class="lab"><b>Address</b></label>
+      <input type="text" id="add" value="" class="input" placeholder="Enter Address">
+      <br>
+      <label class="lab"><b>Favourite Subject</b></label>
+      <input type="text" id="sub" value="" class="input" placeholder="Enter Favourite Subject">
+      <br>
+      <label class="lab"><b>Favourite Movie</b></label>
+      <input type="text" id="mov" value="" class="input" placeholder="Enter Favourite Movie">
+      <br>
+      <label class="lab"><b>Favourite Singer</b></label>
+      <input type="text" id="sin" value="" class="input" placeholder="Enter Favourite Singer">
+      <br>
+      <label class="lab"><b>Password</b></label>
+      <input type="password" id="passwd" value="" class="input" placeholder="Enter Password">
+      <br>
+      <label class=""><b>Gender</b></label>
+
+      <div class="male">
+        <label class=""><b>Female</b></label>
+        <input type="radio" name="" value="" class="">
+        <label class=""><b>Male</b></label>
+        <input type="radio" name="" value="" class="">
+      </div>
+      <br>
+      <label class=""><b>I agree to </b>terms & conditions</label>
+      <input type="checkbox" name="" value="" class="">
+      <br>
+      <br>
+      <input type="submit" value="Submit" class="botton">
+    </form>
+</body>
+<script src="index.js" charset="utf-8"></script>
+
+
+</html>

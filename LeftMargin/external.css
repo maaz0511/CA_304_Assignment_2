@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.head {
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: firebrick;
+}
+.vision{
+background:#2e5090; color: white; margin-left: auto; margin-right: auto; width: 90%;
+}
+
+.mission{
+    background-color:#1b5583 ; color: white; margin-left: auto; margin-right: auto; width: 90%;
+}
+
+.hod{
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 90%; 
+    background-color: #003153; 
+    color: white;
+}
+b {
+    text-align: left;
+}
+
+.hod {
+    text-align: justify;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+h3{
+    margin-left: 35px; 
+    text-align:justify;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    margin-right: 9px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 0 0 0 0;
+    border-radius: 8%;
+    margin-left: 2px;
+    border: 2px solid black;
+}
+
+.text {
+    text-align: right;
+    text-align: justify;
+    font-family: serif;
+}
+
+.video {
+    margin-top: 40px;
+    text-align: center;
+}
